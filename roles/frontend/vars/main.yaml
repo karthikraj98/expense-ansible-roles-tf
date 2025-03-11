@@ -1,0 +1,3 @@
+BACKEND_HOST: backend.learningdevops.shop
+app_location: /usr/share/nginx/html
+component: frontend

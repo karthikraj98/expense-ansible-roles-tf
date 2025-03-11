@@ -1,0 +1,7 @@
+- name: backend configuration
+  hosts: backend
+  become: yes     #remote server
+  vars_files:
+  - /var/expense/credentails_mysql.yaml #ansible server
+  roles: 
+  - backend
